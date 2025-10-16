@@ -1,0 +1,3 @@
+# Ignore all .glb (3D model) files
+*.glb
+**/*.glb

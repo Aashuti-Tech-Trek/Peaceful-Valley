@@ -1,0 +1,33 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #a9dbe9;
+}
+#ui-container {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0; left: 0;
+}
+
+.hud {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(255,255,255,0.65);
+  color: #0f2e3a;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  pointer-events: auto;
+}

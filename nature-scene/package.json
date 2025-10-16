@@ -1,0 +1,19 @@
+{
+  "name": "nature-scene",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "lil-gui": "^0.21.0",
+    "three": "^0.180.0",
+    "vite": "^7.1.10"
+  }
+}
